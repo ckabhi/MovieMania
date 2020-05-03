@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item>
+                <shape>
+                    <corners android:radius="@dimen/live_cardview_radius" />
+                    <gradient
+                        android:angle="270"
+                        android:startColor="@color/color_start"
+                        android:endColor="@color/black_color_end"
+                        android:type="linear"
+                        android:centerX="8"
+                        android:centerY="8"/>
+                    <padding android:bottom="@dimen/card_elevation" android:left="0dp" android:top="0dp" />
+                </shape>
+            </item>
+            <item >
+                <shape>
+                    <corners
+                        android:bottomLeftRadius="@dimen/live_cardview_radius"
+                        android:bottomRightRadius="@dimen/live_cardview_radius"/>
+                    <solid android:color="@color/colorPrimary" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+</selector>

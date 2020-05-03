@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="Search">
+        <menu>
+            <item
+                android:id="@+id/nav_search_movie"
+                android:icon="@drawable/ic_movie_black_24dp"
+                android:title="Movies" />
+            <item
+                android:id="@+id/nav_search_tvs"
+                android:icon="@drawable/ic_tv_black_24dp"
+                android:title="TVs" />
+        </menu>
+    </item>
+    <item android:title="Movies" android:checkable="true">
+        <menu>
+            <item
+                android:id="@+id/nav_popular_movie"
+                android:icon="@drawable/ic_movie_filter_black_24dp"
+                android:title="Popular" />
+            <item
+                android:id="@+id/nav_top_rated_movie"
+                android:icon="@drawable/ic_assessment_black_24dp"
+                android:title="Top Rated" />
+            <item
+                android:id="@+id/nav_upcoming_movie"
+                android:icon="@drawable/ic_today_black_24dp"
+                android:title="Upcoming" />
+            <item
+                android:id="@+id/nav_intheater_movie"
+                android:icon="@drawable/ic_theaters_black_24dp"
+                android:title="In Theater" />
+        </menu>
+    </item>
+    <item android:title="TVs">
+        <menu>
+            <item
+                android:id="@+id/nav_popular_tvs"
+                android:icon="@drawable/ic_movie_filter_black_24dp"
+                android:title="Popular" />
+            <item
+                android:id="@+id/nav_top_rated_tvs"
+                android:icon="@drawable/ic_assessment_black_24dp"
+                android:title="Top Rated" />
+            <item
+                android:id="@+id/nav_ontheair_tvs"
+                android:icon="@drawable/ic_live_tv_black_24dp"
+                android:title="On The Air" />
+            <item
+                android:id="@+id/nav_airing_today_tvs"
+                android:icon="@drawable/ic_today_black_24dp"
+                android:title="Airing Today" />
+        </menu>
+    </item>
+    <item android:title="Your List">
+        <menu>
+            <item
+                android:id="@+id/nav_movie_list"
+                android:icon="@drawable/ic_movie_black_24dp"
+                android:title="Movies" />
+            <item
+                android:id="@+id/nav_tvs_list"
+                android:icon="@drawable/ic_tv_black_24dp"
+                android:title="TVs" />
+        </menu>
+    </item>
+
+</menu>

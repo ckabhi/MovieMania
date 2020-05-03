@@ -1,0 +1,24 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <!-- All Dimension is related to content_main CardView_bg and CardView. -->
+    <dimen name="live_cardview_radius">12dp</dimen>
+    <dimen name="upcoming_radius">8dp</dimen>
+    <dimen name="cardview_radius">8dp</dimen>
+    <dimen name="view_bg_height">241dp</dimen>
+    <dimen name="cardview_bg_height">210dp</dimen>
+    <dimen name="cardview_bg_margin_L_R">16dp</dimen>
+
+    <dimen name="cardview_width">166dp</dimen>
+    <dimen name="cardview_height">161dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+
+    <dimen name="general_padding">8dp</dimen>
+    <dimen name="text_padding">16dp</dimen>
+    <dimen name="text_paddingtop">12dp</dimen>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#13A898</color>
+    <color name="colorPrimaryDark">#008577</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="upcoming_startcolor">#54ffe400</color>
+    <color name="upcoming_endcolor">#FFE400</color>
+    <color name="color_start">#37e7e5e5</color>
+    <color name="black_color_end">#2e000000</color>
+    <color name="black_color_end_hard">#90000000</color>
+    <color name="mostrated_end_color">#9F9E9E</color>
+    <color name="colorgreen">#056b03</color>
+    <color name="colorRed">#ae0006</color>
+
+
+</resources>
